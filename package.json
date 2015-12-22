@@ -1,0 +1,33 @@
+{
+  "name": "website validator",
+  "version": "1.0.0",
+  "description": "A simple website crawler that validates a site against a suite of validation rules",
+  "author": "Glyn Darkin <me@glyndarkin.co.uk>",
+  "homepage": "https://github.com/cgiffard/node-simplecrawler",
+  "license": "BSD-2-Clause",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cgiffard/node-simplecrawler.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cgiffard/node-simplecrawler/issues"
+  },
+  "main": "index.js",
+  "keywords": [
+    "simplecrawler",
+    "crawler",
+    "node"
+  ],
+  "dependencies": {
+    "async": "^1.4.2",
+    "colors": "^1.1.2",
+    "phantom": "^0.7.2",
+    "phantomjs": "^1.9.18",
+    "simplecrawler": "^0.5.3",
+    "node-fs": "latest",
+    "cheerio": "latest",
+    "mongodb" : "latest",
+    "monk" : "latest"
+  },
+  "private":true
+}
